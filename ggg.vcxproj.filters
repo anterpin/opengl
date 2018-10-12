@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\models">
+      <UniqueIdentifier>{0f1194a0-3e73-4966-9974-08e64d2c4c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\system">
+      <UniqueIdentifier>{9cb19003-61bd-41cd-9a28-f5805828bf79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\system\display">
+      <UniqueIdentifier>{889d26e5-f574-4937-a8cd-224a1efb22f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\system\input">
+      <UniqueIdentifier>{56e3d655-987a-41c4-a721-8527f5301cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\system\system">
+      <UniqueIdentifier>{a723dcb1-9a8c-46cd-bab5-dca335533750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\render">
+      <UniqueIdentifier>{c06a6f2a-75c5-41af-a600-af952e99b25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader">
+      <UniqueIdentifier>{33aa5996-653d-4dac-8f67-53182328c8f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader\ShaderProgram">
+      <UniqueIdentifier>{a06bad7e-3d0b-4556-86c2-9e9bf8ca5cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader\ModelShader">
+      <UniqueIdentifier>{c26e16b0-2680-4b90-bcf8-df066e9dffea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\models\model">
+      <UniqueIdentifier>{dc0dec10-4bd9-457e-8c83-56910587c1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\models\modelType">
+      <UniqueIdentifier>{0768cb97-8c9a-4c3d-94b7-87806d4ccf8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\models\material">
+      <UniqueIdentifier>{cff5a2e5-1340-4e7a-bf90-9b6290d00973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\models\mesh">
+      <UniqueIdentifier>{7e2e3e9b-1c3a-44e1-b023-7a68a10416a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{846770df-367e-42a4-8559-e71b46ec5eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene">
+      <UniqueIdentifier>{d269127c-99e2-41eb-9fa0-2cb261350747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\terrain">
+      <UniqueIdentifier>{f974129d-3aad-4211-be47-1f702ee9237a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\terrain\terrain">
+      <UniqueIdentifier>{d46cbaf0-8598-454c-a37c-b03f41e99145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\terrain\terrainQuadTree">
+      <UniqueIdentifier>{a6458df4-5627-4dde-a3c8-e859e9fd91a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\terrain\terrainNode">
+      <UniqueIdentifier>{0eaf3036-dbfe-4fa3-b01c-e14cc66146de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\settings">
+      <UniqueIdentifier>{f54c97a8-f9cc-40e6-97af-862e8c054118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\buffers">
+      <UniqueIdentifier>{ceb1020a-28b4-4467-b929-b3b893f27bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gpgpu">
+      <UniqueIdentifier>{46161268-905a-425e-8efc-8eea21026457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\system\MediaLayer">
+      <UniqueIdentifier>{3a5ae0cc-bf68-4d34-8753-bae69cc1d58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui">
+      <UniqueIdentifier>{e6e9e114-28f7-4cd6-91fc-5985205f9ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\Text">
+      <UniqueIdentifier>{bb281a4f-25d7-4dc0-b549-2aa75407271f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\terrain\terrainConfig">
+      <UniqueIdentifier>{5da8c824-976c-4a8e-867a-b865fd89d044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader\GuiShader">
+      <UniqueIdentifier>{a66b75d1-9e50-4766-bb7d-9c361022d07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader\TerrainShader">
+      <UniqueIdentifier>{fac88910-709b-4326-a5ac-fd005c1a0e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gpgpu\normalMap">
+      <UniqueIdentifier>{a6aa5ffd-4ea3-46b6-a942-a8d970d8c0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gpgpu\fft">
+      <UniqueIdentifier>{35311fcc-4378-4555-81c4-afb25d7cc714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\water">
+      <UniqueIdentifier>{0fe46ef6-017f-42dc-9879-f85c48df0bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\water\fftOcean">
+      <UniqueIdentifier>{91863157-1f11-416d-bddf-102d866d4343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\Button">
+      <UniqueIdentifier>{c7bc939d-aa4c-425f-8129-4a7c3d11ea48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gui\TextureRenderer">
+      <UniqueIdentifier>{3110b292-af2c-4322-933b-9d00c33ebd9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\light">
+      <UniqueIdentifier>{02d10740-0c48-4541-8b18-5efad3e3fa31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader\oceanShader">
+      <UniqueIdentifier>{db70c9a2-5697-4309-9861-f14fa4fc46bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader\imageShader">
+      <UniqueIdentifier>{80b9fc35-4456-405a-9fbb-1f56a7b22934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\water\water">
+      <UniqueIdentifier>{bc524b78-0ec7-4460-8b59-1400875ef61c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\water\waterConfig">
+      <UniqueIdentifier>{2d2facb7-8115-4c55-a065-76eb60291c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\water\waterQuadTree">
+      <UniqueIdentifier>{fab29e6f-f030-4309-9602-94e06b70f87d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\water\waterNode">
+      <UniqueIdentifier>{44e7f064-f16d-496f-bb86-e3c971e318d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\buffers\FBO">
+      <UniqueIdentifier>{a413311d-623c-4f37-b3c3-0924faec41ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\buffers\VBO">
+      <UniqueIdentifier>{307afc16-167c-4bbc-8754-dc1d4a7f94de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\buffers\UBO">
+      <UniqueIdentifier>{89f1a745-2f02-4c3e-80bf-59295ab3ba89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader\uniformBlock">
+      <UniqueIdentifier>{4f716db8-fbb4-403b-bb2c-ea400df0cfae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader\aabbShader">
+      <UniqueIdentifier>{1ee8015c-d22f-436a-ade8-18dc2e1aa48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader\complex">
+      <UniqueIdentifier>{2bef4669-5c75-4e3f-87b9-d4450113f7a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gpgpu\fft\h0">
+      <UniqueIdentifier>{f89eee25-6429-4f74-bd09-d9e282ffff46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gpgpu\fft\hkt">
+      <UniqueIdentifier>{74873804-55a9-494b-a376-d11554f06d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gpgpu\fft\ifft">
+      <UniqueIdentifier>{053a126d-473f-4d6c-bfeb-7e1302c71866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\textures">
+      <UniqueIdentifier>{9fde460f-3bae-45c4-a04e-0fbce1d1a72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sky">
+      <UniqueIdentifier>{7ba5c273-4066-4135-bf6a-cf293e9fcc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader\sky">
+      <UniqueIdentifier>{d0207566-ff0d-4dad-a761-d78de067fccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader\sky\skydome">
+      <UniqueIdentifier>{26c70d9b-ec64-4f6a-a78f-f5bd5828c78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader\sky\skybox">
+      <UniqueIdentifier>{737679b8-bd82-4aec-b62d-9ee2fce9d087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader\multisampling">
+      <UniqueIdentifier>{4a94dc9f-df58-4bd0-9e5e-5cccea398553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gpgpu\fft\ifft\twiddleIndices">
+      <UniqueIdentifier>{bdff3d61-fe71-47d2-82bf-c9123ecbb865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\buffers\SSBO">
+      <UniqueIdentifier>{bc343d25-ddff-4d0a-9128-61a249680541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gpgpu\fft\ifft\butterfly">
+      <UniqueIdentifier>{53c48f1b-49ed-41e2-8311-cdbee158f562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gpgpu\fft\ifft\inversion">
+      <UniqueIdentifier>{98b7a5dc-7543-46df-9ac6-dfa28868088b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gpgpu\fft\unifyDist">
+      <UniqueIdentifier>{33a437c8-80eb-4bb8-bcd9-ff2bec704cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\models\animation">
+      <UniqueIdentifier>{6af7b837-4f7c-4db6-9ecb-e867b195ff98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\light\importer">
+      <UniqueIdentifier>{8496b896-6a0e-457b-b109-956e340bbe6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\light\importer\obj">
+      <UniqueIdentifier>{b5a8458b-1377-48ad-a9d1-9327366d8bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\light\importer\EdgeCollapse">
+      <UniqueIdentifier>{b0ce6d35-ecf7-4937-84b8-3baa279f84ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\light\importer\collada">
+      <UniqueIdentifier>{37c7fea0-a739-492d-a8a3-7a113194b73c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\light\importer\xml">
+      <UniqueIdentifier>{8332c24e-7c37-4f0e-992c-6f51c0862f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{7ee7f2d7-1881-4c3c-b1f2-b91c2b631d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils\Camera">
+      <UniqueIdentifier>{3547a32a-394c-4678-87b4-d135cfed3566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils\FPS">
+      <UniqueIdentifier>{a380eec7-1b61-40b3-8d4a-3962d5dcbe2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils\RenderUtils">
+      <UniqueIdentifier>{9538d017-5357-4891-9673-1df46a6a9acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils\Clock">
+      <UniqueIdentifier>{b4831a1a-b975-4bde-8e55-92a344b3d5ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Header Files\system\display</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Header Files\shader\ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Header Files\system\input</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Header Files\models\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Header Files\models\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshImporter.cpp">
+      <Filter>Header Files\light\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjImporter.cpp">
+      <Filter>Header Files\light\importer\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Header Files\terrain\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainQuadTree.cpp">
+      <Filter>Header Files\terrain\terrainQuadTree</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainNode.cpp">
+      <Filter>Header Files\terrain\terrainNode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Display.h">
+      <Filter>Header Files\system\display</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\system\input</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Header Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files\shader\ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelShader.h">
+      <Filter>Header Files\shader\ModelShader</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelType.h">
+      <Filter>Header Files\models\modelType</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\models\material</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\utils\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GInput.h">
+      <Filter>Header Files\system\input</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\models\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\models\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshImporter.h">
+      <Filter>Header Files\light\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjImporter.h">
+      <Filter>Header Files\light\importer\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Trasform.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Simplify.h">
+      <Filter>Header Files\light\importer\EdgeCollapse</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files\terrain\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainQuadTree.h">
+      <Filter>Header Files\terrain\terrainQuadTree</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainNode.h">
+      <Filter>Header Files\terrain\terrainNode</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainShader.h">
+      <Filter>Header Files\shader\TerrainShader</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainConfig.h">
+      <Filter>Header Files\terrain\terrainConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="Win.h">
+      <Filter>Header Files\system\MediaLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiChar.h">
+      <Filter>Header Files\Gui\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files\Gui\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="FontMesh.h">
+      <Filter>Header Files\Gui\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiShader.h">
+      <Filter>Header Files\shader\GuiShader</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCounter.h">
+      <Filter>Header Files\utils\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Gui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterRenderer.h">
+      <Filter>Header Files\utils\RenderUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Header Files\utils\Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMapCompute.h">
+      <Filter>Header Files\gpgpu\normalMap</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMapShader.h">
+      <Filter>Header Files\gpgpu\normalMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute.h">
+      <Filter>Header Files\gpgpu</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiRenderer.h">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRenderer.h">
+      <Filter>Header Files\Gui\TextureRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GLApp.h">
+      <Filter>Header Files\system\display</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\system\system</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="AmbientLight.h">
+      <Filter>Header Files\light</Filter>
+    </ClInclude>
+    <ClInclude Include="Uniform.h">
+      <Filter>Header Files\shader\ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageShader.h">
+      <Filter>Header Files\shader\imageShader</Filter>
+    </ClInclude>
+    <ClInclude Include="OceanShader.h">
+      <Filter>Header Files\shader\oceanShader</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterConfig.h">
+      <Filter>Header Files\water\waterConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="waterQuadTree.h">
+      <Filter>Header Files\water\waterQuadTree</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterNode.h">
+      <Filter>Header Files\water\waterNode</Filter>
+    </ClInclude>
+    <ClInclude Include="FBO.h">
+      <Filter>Header Files\buffers\FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>Header Files\buffers\FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Header Files\buffers\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchVBO.h">
+      <Filter>Header Files\buffers\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="UBO.h">
+      <Filter>Header Files\buffers\UBO</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraBlock.h">
+      <Filter>Header Files\buffers\UBO</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>Header Files\buffers\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Header Files\models\modelType</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>Header Files\models\modelType</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Header Files\models\modelType</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBShader.h">
+      <Filter>Header Files\shader\aabbShader</Filter>
+    </ClInclude>
+    <ClInclude Include="hk0Shader.h">
+      <Filter>Header Files\gpgpu\fft\h0</Filter>
+    </ClInclude>
+    <ClInclude Include="hk0Compute.h">
+      <Filter>Header Files\gpgpu\fft\h0</Filter>
+    </ClInclude>
+    <ClInclude Include="hktCompute.h">
+      <Filter>Header Files\gpgpu\fft\hkt</Filter>
+    </ClInclude>
+    <ClInclude Include="hktShader.h">
+      <Filter>Header Files\gpgpu\fft\hkt</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Header Files\water\waterConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="FFTmapsh.h">
+      <Filter>Header Files\gpgpu\fft</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCube.h">
+      <Filter>Header Files\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2DMultisample.h">
+      <Filter>Header Files\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Header Files\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBufferMultiSample.h">
+      <Filter>Header Files\buffers\FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeWire.h">
+      <Filter>Header Files\buffers\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files\buffers\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDome.h">
+      <Filter>Header Files\sky</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDomeShader.h">
+      <Filter>Header Files\shader\sky\skydome</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Header Files\sky</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxShader.h">
+      <Filter>Header Files\shader\sky\skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files\buffers\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBO.h">
+      <Filter>Header Files\buffers\SSBO</Filter>
+    </ClInclude>
+    <ClInclude Include="TwiddleIndicesCompute.h">
+      <Filter>Header Files\gpgpu\fft\ifft\twiddleIndices</Filter>
+    </ClInclude>
+    <ClInclude Include="FFTTwiddleFactorShader.h">
+      <Filter>Header Files\gpgpu\fft\ifft\twiddleIndices</Filter>
+    </ClInclude>
+    <ClInclude Include="ButterflyShader.h">
+      <Filter>Header Files\gpgpu\fft\ifft\butterfly</Filter>
+    </ClInclude>
+    <ClInclude Include="ButterflyCompute.h">
+      <Filter>Header Files\gpgpu\fft\ifft\butterfly</Filter>
+    </ClInclude>
+    <ClInclude Include="InversionShader.h">
+      <Filter>Header Files\gpgpu\fft\ifft\inversion</Filter>
+    </ClInclude>
+    <ClInclude Include="InversionCompute.h">
+      <Filter>Header Files\gpgpu\fft\ifft\inversion</Filter>
+    </ClInclude>
+    <ClInclude Include="Joint.h">
+      <Filter>Header Files\models\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyFrame.h">
+      <Filter>Header Files\models\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="JointTrasform.h">
+      <Filter>Header Files\models\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ImporterUtils.h">
+      <Filter>Header Files\light\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="ColladaLoader.h">
+      <Filter>Header Files\light\importer\collada</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLImporter.h">
+      <Filter>Header Files\light\importer\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshData.h">
+      <Filter>Header Files\models\modelType</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files\models\modelType</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\models\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="JointAnimation.h">
+      <Filter>Header Files\models\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedModel.h">
+      <Filter>Header Files\models\model</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedObject.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="unifyDistShader.h">
+      <Filter>Header Files\gpgpu\fft\unifyDist</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="terrain_VS.glsl">
+      <Filter>Header Files\shader\TerrainShader</Filter>
+    </None>
+    <None Include="model_FS.glsl">
+      <Filter>Header Files\shader\ModelShader</Filter>
+    </None>
+    <None Include="terrain_TCS.glsl">
+      <Filter>Header Files\shader\TerrainShader</Filter>
+    </None>
+    <None Include="terrain_TES.glsl">
+      <Filter>Header Files\shader\TerrainShader</Filter>
+    </None>
+    <None Include="terrain_GS.glsl">
+      <Filter>Header Files\shader\TerrainShader</Filter>
+    </None>
+    <None Include="terrain_FS.glsl">
+      <Filter>Header Files\shader\TerrainShader</Filter>
+    </None>
+    <None Include="model_VS.glsl">
+      <Filter>Header Files\shader\ModelShader</Filter>
+    </None>
+    <None Include="gui_VS.glsl">
+      <Filter>Header Files\shader\GuiShader</Filter>
+    </None>
+    <None Include="gui_FS.glsl">
+      <Filter>Header Files\shader\GuiShader</Filter>
+    </None>
+    <None Include="normalMap.glsl">
+      <Filter>Header Files\gpgpu\normalMap</Filter>
+    </None>
+    <None Include="ocean_VS.glsl">
+      <Filter>Header Files\shader\oceanShader</Filter>
+    </None>
+    <None Include="ocean_FS.glsl">
+      <Filter>Header Files\shader\oceanShader</Filter>
+    </None>
+    <None Include="ocean_TES.glsl">
+      <Filter>Header Files\shader\oceanShader</Filter>
+    </None>
+    <None Include="ocean_TCS.glsl">
+      <Filter>Header Files\shader\oceanShader</Filter>
+    </None>
+    <None Include="Camera.glh">
+      <Filter>Header Files\shader\uniformBlock</Filter>
+    </None>
+    <None Include="aabbShader_VS.glsl">
+      <Filter>Header Files\shader\aabbShader</Filter>
+    </None>
+    <None Include="aabbShader_FS.glsl">
+      <Filter>Header Files\shader\aabbShader</Filter>
+    </None>
+    <None Include="Complex.glh">
+      <Filter>Header Files\shader\complex</Filter>
+    </None>
+    <None Include="h0.glsl">
+      <Filter>Header Files\gpgpu\fft\h0</Filter>
+    </None>
+    <None Include="hkt.glsl">
+      <Filter>Header Files\gpgpu\fft\hkt</Filter>
+    </None>
+    <None Include="skydome_VS.glsl">
+      <Filter>Header Files\shader\sky\skydome</Filter>
+    </None>
+    <None Include="skydome_FS.glsl">
+      <Filter>Header Files\shader\sky\skydome</Filter>
+    </None>
+    <None Include="skybox_VS.glsl">
+      <Filter>Header Files\shader\sky\skybox</Filter>
+    </None>
+    <None Include="skybox_FS.glsl">
+      <Filter>Header Files\shader\sky\skybox</Filter>
+    </None>
+    <None Include="Multisample.glh">
+      <Filter>Header Files\shader\multisampling</Filter>
+    </None>
+    <None Include="TwiddleFactors.glsl">
+      <Filter>Header Files\gpgpu\fft\ifft\twiddleIndices</Filter>
+    </None>
+    <None Include="Butterfly.glsl">
+      <Filter>Header Files\gpgpu\fft\ifft\butterfly</Filter>
+    </None>
+    <None Include="Inversion.glsl">
+      <Filter>Header Files\gpgpu\fft\ifft\inversion</Filter>
+    </None>
+    <None Include="unifyDistortion.glsl">
+      <Filter>Header Files\gpgpu\fft\unifyDist</Filter>
+    </None>
+    <None Include="model_GS.glsl">
+      <Filter>Header Files\shader\ModelShader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="oceanwater_settings.txt">
+      <Filter>Header Files\settings</Filter>
+    </Text>
+    <Text Include="terrain_settings.txt">
+      <Filter>Header Files\settings</Filter>
+    </Text>
+    <Text Include="image_FS.glsl">
+      <Filter>Header Files\shader\imageShader</Filter>
+    </Text>
+    <Text Include="image_VS.glsl">
+      <Filter>Header Files\shader\imageShader</Filter>
+    </Text>
+    <Text Include="ocean_GS.glsl">
+      <Filter>Header Files\shader\oceanShader</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

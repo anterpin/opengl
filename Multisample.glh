@@ -1,0 +1,16 @@
+
+
+
+vec4 sampleMS(sampler2DMS texture, ivec2 ipos, int samples)
+{
+	vec4 texel = vec4(0.0);	
+    
+    for (int i = 0; i < samples; i++)
+    {
+    	texel += texelFetch(texture, ipos, i);
+    }
+    
+    texel /= float(samples);
+    
+    return texel;
+}
