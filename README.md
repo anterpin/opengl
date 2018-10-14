@@ -1,5 +1,7 @@
 # opengl
 
+
+<img src="http://github.com/anterpin/opengl/screenshots/img1.png" alt="screen1"/>
 ![img1](http://github.com/anterpin/opengl/screenshots/img1.png)
 ![img2](http://github.com/anterpin/opengl/screenshots/img2.png)
 ![img3](http://github.com/anterpin/opengl/screenshots/img3.png)
