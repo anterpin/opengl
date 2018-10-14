@@ -1,10 +1,9 @@
 # opengl
 
 
-<img src="http://github.com/anterpin/opengl/screenshots/img1.png" alt="screen1"/>
-![img1](http://github.com/anterpin/opengl/screenshots/img1.png)
-![img2](http://github.com/anterpin/opengl/screenshots/img2.png)
-![img3](http://github.com/anterpin/opengl/screenshots/img3.png)
+![screen1](https://github.com/anterpin/opengl/blob/master/screenshots/img1.png)
+![screen2](https://github.com/anterpin/opengl/blob/master/screenshots/img2.png)
+![screen3](https://github.com/anterpin/opengl/blob/master/screenshots/img3.png)
 
 This is a personal project made just for fun.
 It contains a lot of bugs...
