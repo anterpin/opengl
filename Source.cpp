@@ -46,7 +46,7 @@ Model* createModel(char* name) {
 		meshes[i]->boundingBox.initForRender();
 
 
-		materials[i]->init("C:/Users/Alex/Desktop/character\\animation\\thinMatrix\\diffuse.png");
+		materials[i]->init("/path/to/image/texture");
 
 	}
 
@@ -89,14 +89,14 @@ int main(int argc,char** argv) {
 	engine->createWindow();
 	Camera::getInstance()->setPosition(0, 200, 0);
 	engine->init();
-	addModel("C:/Users/Alex/Desktop/character/stall");
+	addModel("/path/to/obj/model");
 
 	Terrain terrain;
 	Water water;
 	terrain.setShift(-150);
 	//water.setShift(300);
-	terrain.Init("C:/Users/Alex/Documents/Visual Studio 2015/Projects/ggg/ggg/terrain_settings.txt");
-	water.Init("C:/Users/Alex/Documents/Visual Studio 2015/Projects/ggg/ggg/oceanwater_settings.txt");
+	terrain.Init("terrain_settings.txt");
+	water.Init("oceanwater_settings.txt");
 	
 	
 	FrameBuffer refraction;
